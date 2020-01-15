@@ -112,6 +112,7 @@ def movies_with_directors_set(source)
     movies << movies_with_directors_set(director_name,director_movies)
     index += 1
   end
+  movies
 end
 
 # ----------------    End of Your Code Region --------------------
