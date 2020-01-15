@@ -106,6 +106,7 @@ def movies_with_directors_set(source)
   movies = []
   
   while index < source.length do 
+    hash = source[index]
     
     index += 1
   end
