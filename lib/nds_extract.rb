@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
     hash = source[index]
     director_name = hash[:name]
     director_movies = hash[:movies]
-    movies
+    movies << movies_with_directors_set()
     index += 1
   end
 end
